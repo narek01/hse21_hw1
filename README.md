@@ -27,7 +27,7 @@ ls | xargs -P 1 -tI{} fastqc -o reports {}
 multiqc reports -o reports
 platanus assemble -o Poil -t 1 -m 16 -f sub_oil_R1.fastq.trimmed sub_oil_R2.fastq.trimmed 2> assemble.log
 platanus scaffold -o Poil -t 1 -c Poil_contig.fa -IP2 sub_oil_R1.fastq.trimmed sub_oil_R2.fastq.trimmed -OP2 sub_oilMP_S4_L001_R1_001.fastq.int_trimmed sub_oilMP_S4_L001_R2_001.fastq.int_trimmed 2> scaffold.log
-platanus gap_close -o Poil -t 6 -c Poil_scaffold.fa -IP2 sub_oil_R1.fastq.trimmed sub_oil_R2.fastq.trimmed -OP2 sub_oilMP_S4_L001_R1_001.fastq.int_trimmed sub_oilMP_S4_L001_R2_001.fastq.int_trimmed 2> gapclose.log
+platanus gap_close -o Poil -t 1 -c Poil_scaffold.fa -IP2 sub_oil_R1.fastq.trimmed sub_oil_R2.fastq.trimmed -OP2 sub_oilMP_S4_L001_R1_001.fastq.int_trimmed sub_oilMP_S4_L001_R2_001.fastq.int_trimmed 2> gapclose.log
 ```
 
 ## Статистика multiQC
@@ -68,7 +68,7 @@ sub_oil_R2	| 29.3%	| 46%	| 96 bp |	0% |	4.8
 ![](images/T-status-check-heatmap.png)
 
 
-## [Jupyter Notebook с кодом](/data/reports/multiqc_trimmed.html)
+## [Jupyter Notebook с кодом](/data/src/HW1.ipynb)
 
 ## Результаты (скопировано из ноутбука)
 
