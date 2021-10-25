@@ -68,7 +68,7 @@ sub_oil_R2	| 29.3%	| 46%	| 96 bp |	0% |	4.8
 ![](images/T-status-check-heatmap.png)
 
 
-## [Jupyter Notebook с кодом](/data/src/HW1.ipynb)
+## [Jupyter Notebook с кодом](/src/HW1.ipynb)
 
 ## Результаты (скопировано из ноутбука)
 
