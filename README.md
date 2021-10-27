@@ -95,3 +95,57 @@ N50: 173397\
 Number of gaps: 0\
 The gaps themselves:  []\
 Total length of gaps: 0
+
+## Дополнительное задание
+
+### Результаты для 4 и 1.2 млн ридов (PE и MP)
+
+#### Statistics for contigs
+Number of sequences: 630\
+Total length: 3924487\
+The size of the longest sequence: 189755\
+N50: 58446
+
+#### Statistics for scaffolds
+Number of sequences: 100\
+Total length: 3868693\
+The size of the longest sequence: 383606\
+N50: 173393\
+Number of gaps: 4\
+The gaps themselves:  ['NNNNN', 'NNNNNNNNNNNNNNN', 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNN', 'NNNNNNNNNNNNNNNNNNNN']\
+Total length of gaps: 69
+
+#### Statistics for gapClosed
+Number of sequences: 100\
+Total length: 3868817\
+The size of the longest sequence: 383570\
+N50: 173393\
+Number of gaps: 0\
+The gaps themselves:  []\
+Total length of gaps: 0
+
+### Результаты для 2.5 и 0.75 млн ридов (PE и MP)
+
+#### Statistics for contigs
+Number of sequences: 693\
+Total length: 3923130\
+The size of the longest sequence: 210856\
+N50: 81322
+
+#### Statistics for scaffolds
+Number of sequences: 118\
+Total length: 3863084\
+The size of the longest sequence: 383400\
+N50: 173292\
+Number of gaps: 5\
+The gaps themselves:  ['NN', 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN', 'NNNNNNNNNNNNNNNNNN', 'NNNNNNNNNNNNNNNNNNNNNNNN', 'NNNNNNNNNNNNNNNNNN']\
+Total length of gaps: 109
+
+#### Statistics for gapClosed
+Number of sequences: 118\
+Total length: 3863069\
+The size of the longest sequence: 383412\
+N50: 173292\
+Number of gaps: 0\
+The gaps themselves:  []\
+Total length of gaps: 0
