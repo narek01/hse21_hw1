@@ -76,13 +76,13 @@ sub_oil_R2	| 29.3%	| 46%	| 96 bp |	0% |	4.8
 Number of sequences: 609\
 Total length: 3925016\
 The size of the longest sequence: 179307\
-N50: 47611
+N50: 47798
 
 #### Statistics for scaffolds
 Number of sequences: 95\
 Total length: 3870305\
 The size of the longest sequence: 383603\
-N50: 169882\
+N50: 173397\
 Number of gaps: 3\
 The gaps themselves:  ['N', 'NNNNNNNNNNNNNN', 'NNNNNNNNNNNNNNNNNNNNNNNNN']\
 Total length of gaps: 40
@@ -91,7 +91,7 @@ Total length of gaps: 40
 Number of sequences: 95\
 Total length: 3870322\
 The size of the longest sequence: 383574\
-N50: 169882\
+N50: 173397\
 Number of gaps: 0\
 The gaps themselves:  []\
 Total length of gaps: 0
